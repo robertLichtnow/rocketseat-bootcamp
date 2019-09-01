@@ -1,7 +1,11 @@
 import React from 'react';
 
+import './App.css';
+
+import avatar from './assets/avatar.png';
+
 function App() {
-  return <h1>Hello Rocketseat</h1>;
+  return <img width="150" src={avatar} />;
 }
 
 export default App;

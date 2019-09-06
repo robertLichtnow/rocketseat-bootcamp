@@ -3,18 +3,6 @@ import {StyleSheet, View, Text} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
-  return (
-    <View style={styles.sectionContainer}>
-      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
-      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
-      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
-      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
-      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
-    </View>
-  );
-};
-
 const styles = StyleSheet.create({
   sectionContainer: {
     flex: 1,
@@ -28,5 +16,17 @@ const styles = StyleSheet.create({
     color: Colors.green,
   },
 });
+
+const App = () => {
+  return (
+    <View style={styles.sectionContainer}>
+      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
+      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
+      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
+      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
+      <Text style={styles.sectionTitle}>Welcome to React Native</Text>
+    </View>
+  );
+};
 
 export default App;

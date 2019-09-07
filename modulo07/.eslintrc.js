@@ -23,5 +23,6 @@ module.exports = {
     'react/state-in-constructor': 'off',
     'react/static-property-placement': 'off',
     'import/prefer-default-export': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
   },
 };
